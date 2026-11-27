@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autosell",
+  "version": "${version}",
+  "name": "AutoSell",
+  "description": "Tu dong /sell vat pham da chon. Phim K bat/tat, phim L mo menu loc.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autosell.AutoSellClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.7",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
